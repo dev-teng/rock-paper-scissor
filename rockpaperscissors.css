@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-family: arial;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rock {
+    border-radius: 50px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.paper {
+    border-radius: 50px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.scissor {
+    border-radius: 50px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.move-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.results {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset-button, 
+.auto-button {
+    padding: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.is-stop-play {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    border-color: rgb(74, 74, 74);
+    border-style: solid;
+}
